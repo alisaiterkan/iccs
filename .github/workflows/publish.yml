@@ -1,10 +1,12 @@
 name: Publish computing programs website
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -21,49 +23,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Retrieve static website files
-        shell: bash
+      - name: Prepare portable static site
         run: |
-          python3 - <<'PY'
-          from pathlib import Path
-          from urllib.request import urlopen, Request
-          from urllib.parse import quote
-          import time
-
-          origin = "https://computing-program-trial-2026.lastessay5.chatgpt.site"
-          paths = [s.strip() for s in Path("site-files.txt").read_text().splitlines() if s.strip()]
-          for rel in paths:
-              dest = Path("_site") / rel
-              dest.parent.mkdir(parents=True, exist_ok=True)
-              url = origin + "/" + quote(rel, safe="/")
-              for attempt in range(4):
-                  try:
-                      with urlopen(Request(url, headers={"User-Agent": "ICCS-Site-Migration/1.0"}), timeout=90) as response:
-                          data = response.read()
-                          media = response.headers.get("Content-Type", "")
-                      if not data or (not rel.endswith(".html") and "text/html" in media):
-                          raise RuntimeError(f"Unexpected content for {rel} ({media})")
-                      dest.write_bytes(data)
-                      print(f"{rel}: {len(data)} bytes", flush=True)
-                      break
-                  except Exception:
-                      if attempt == 3:
-                          raise
-                      time.sleep(3 * (attempt + 1))
-          assert (Path("_site") / "index.html").exists()
-          PY
-
-      - name: Keep portable website source in repository
-        run: |
-          cp -a _site/. .
-          touch .nojekyll
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          if ! git diff --cached --quiet; then
-            git commit -m "Import static site files"
-            git push
-          fi
+          mkdir -p _site
+          cp index.html _site/
+          cp -a assets explore experiments majors micro-credentials minors _site/
+          touch _site/.nojekyll
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
