@@ -1,0 +1,451 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1272pt" height="496pt" viewBox="0.00 0.00 1272.00 496.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 492)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-492 1268.43,-492 1268.43,4 -4,4"/>
+<!-- IWD -->
+<g id="node1" class="node">
+<title>IWD</title>
+<polygon fill="#d9ead3" stroke="#d9ead3" points="722.87,-46.4 646.01,-46.4 646.01,0 722.87,0 722.87,-46.4"/>
+<text xml:space="preserve" text-anchor="middle" x="684.44" y="-28" font-family="Times" font-size="16.00">Intro</text>
+<text xml:space="preserve" text-anchor="middle" x="684.44" y="-8.8" font-family="Times" font-size="16.00">Web Dev</text>
+</g>
+<!-- IGD -->
+<g id="node2" class="node">
+<title>IGD</title>
+<polygon fill="#d9ead3" stroke="#d9ead3" points="823.1,-46.4 761.77,-46.4 761.77,0 823.1,0 823.1,-46.4"/>
+<text xml:space="preserve" text-anchor="middle" x="792.44" y="-28" font-family="Times" font-size="16.00">Game</text>
+<text xml:space="preserve" text-anchor="middle" x="792.44" y="-8.8" font-family="Times" font-size="16.00">Design</text>
+</g>
+<!-- WSD -->
+<g id="node3" class="node">
+<title>WSD</title>
+<polygon fill="#d9ead3" stroke="#d9ead3" points="509.76,-46.4 427.11,-46.4 427.11,0 509.76,0 509.76,-46.4"/>
+<text xml:space="preserve" text-anchor="middle" x="468.44" y="-28" font-family="Times" font-size="16.00">Structured</text>
+<text xml:space="preserve" text-anchor="middle" x="468.44" y="-8.8" font-family="Times" font-size="16.00">Data</text>
+</g>
+<!-- SSS -->
+<g id="node4" class="node">
+<title>SSS</title>
+<polygon fill="none" stroke="gray" points="397.77,-41.2 323.11,-41.2 323.11,-5.2 397.77,-5.2 397.77,-41.2"/>
+<text xml:space="preserve" text-anchor="middle" x="360.44" y="-18.4" font-family="Times" font-size="16.00">Scripting</text>
+</g>
+<!-- WSD&#45;&gt;SSS -->
+<g id="edge1" class="edge">
+<title>WSD-&gt;SSS</title>
+<path fill="none" stroke="lightgray" d="M426.68,-23.2C421.11,-23.2 415.36,-23.2 409.68,-23.2"/>
+<polygon fill="lightgray" stroke="lightgray" points="409.71,-19.7 399.71,-23.2 409.71,-26.7 409.71,-19.7"/>
+</g>
+<!-- WRD -->
+<g id="node5" class="node">
+<title>WRD</title>
+<polygon fill="none" stroke="gray" points="306.43,-46.4 198.45,-46.4 198.45,0 306.43,0 306.43,-46.4"/>
+<text xml:space="preserve" text-anchor="middle" x="252.44" y="-28" font-family="Times" font-size="16.00">Intro</text>
+<text xml:space="preserve" text-anchor="middle" x="252.44" y="-8.8" font-family="Times" font-size="16.00">Relational DB</text>
+</g>
+<!-- PTC -->
+<g id="node6" class="node">
+<title>PTC</title>
+<polygon fill="none" stroke="gray" points="188.44,-46.4 100.43,-46.4 100.43,0 188.44,0 188.44,-46.4"/>
+<text xml:space="preserve" text-anchor="middle" x="144.44" y="-28" font-family="Times" font-size="16.00">Plain-Text</text>
+<text xml:space="preserve" text-anchor="middle" x="144.44" y="-8.8" font-family="Times" font-size="16.00">Computing</text>
+</g>
+<!-- CS1 -->
+<g id="node7" class="node">
+<title>CS1</title>
+<polygon fill="#899a83" stroke="#899a83" points="616.43,-46.4 536.44,-46.4 536.44,0 616.43,0 616.43,-46.4"/>
+<text xml:space="preserve" text-anchor="middle" x="576.44" y="-28" font-family="Times" font-size="16.00">Computer</text>
+<text xml:space="preserve" text-anchor="middle" x="576.44" y="-8.8" font-family="Times" font-size="16.00">Prog I</text>
+</g>
+<!-- CS2 -->
+<g id="node8" class="node">
+<title>CS2</title>
+<polygon fill="#899a83" stroke="#899a83" points="616.43,-154.4 536.44,-154.4 536.44,-108 616.43,-108 616.43,-154.4"/>
+<text xml:space="preserve" text-anchor="middle" x="576.44" y="-136" font-family="Times" font-size="16.00">Computer</text>
+<text xml:space="preserve" text-anchor="middle" x="576.44" y="-116.8" font-family="Times" font-size="16.00">Prog II</text>
+</g>
+<!-- CS1&#45;&gt;CS2 -->
+<g id="edge2" class="edge">
+<title>CS1-&gt;CS2</title>
+<path fill="none" stroke="black" d="M576.44,-46.63C576.44,-61.21 576.44,-80.22 576.44,-96.52"/>
+<polygon fill="black" stroke="black" points="572.94,-96.3 576.44,-106.3 579.94,-96.3 572.94,-96.3"/>
+</g>
+<!-- DM -->
+<g id="node12" class="node">
+<title>DM</title>
+<polygon fill="#899a83" stroke="#899a83" points="508.87,-154.4 428,-154.4 428,-108 508.87,-108 508.87,-154.4"/>
+<text xml:space="preserve" text-anchor="middle" x="468.44" y="-136" font-family="Times" font-size="16.00">Discrete</text>
+<text xml:space="preserve" text-anchor="middle" x="468.44" y="-116.8" font-family="Times" font-size="16.00">Structures</text>
+</g>
+<!-- CS1&#45;&gt;DM -->
+<g id="edge7" class="edge">
+<title>CS1-&gt;DM</title>
+<path fill="none" stroke="black" d="M553,-46.63C537.44,-62.2 516.81,-82.82 499.83,-99.81"/>
+<polygon fill="black" stroke="black" points="497.49,-97.2 492.9,-106.74 502.44,-102.14 497.49,-97.2"/>
+</g>
+<!-- FSWD -->
+<g id="node9" class="node">
+<title>FSWD</title>
+<polygon fill="#d9ead3" stroke="#d9ead3" points="725.77,-262.4 643.11,-262.4 643.11,-216 725.77,-216 725.77,-262.4"/>
+<text xml:space="preserve" text-anchor="middle" x="684.44" y="-244" font-family="Times" font-size="16.00">Full-Stack</text>
+<text xml:space="preserve" text-anchor="middle" x="684.44" y="-224.8" font-family="Times" font-size="16.00">Web Dev</text>
+</g>
+<!-- CS2&#45;&gt;FSWD -->
+<g id="edge3" class="edge">
+<title>CS2-&gt;FSWD</title>
+<path fill="none" stroke="black" d="M599.87,-154.63C615.44,-170.2 636.06,-190.82 653.04,-207.81"/>
+<polygon fill="black" stroke="black" points="650.43,-210.14 659.98,-214.74 655.38,-205.2 650.43,-210.14"/>
+</g>
+<!-- GD -->
+<g id="node10" class="node">
+<title>GD</title>
+<polygon fill="#d9ead3" stroke="#d9ead3" points="843.54,-262.4 741.34,-262.4 741.34,-216 843.54,-216 843.54,-262.4"/>
+<text xml:space="preserve" text-anchor="middle" x="792.44" y="-244" font-family="Times" font-size="16.00">Game</text>
+<text xml:space="preserve" text-anchor="middle" x="792.44" y="-224.8" font-family="Times" font-size="16.00">Development</text>
+</g>
+<!-- CS2&#45;&gt;GD -->
+<g id="edge4" class="edge">
+<title>CS2-&gt;GD</title>
+<path fill="none" stroke="black" d="M616.81,-151.39C650.07,-168.02 697.65,-191.81 734.9,-210.43"/>
+<polygon fill="black" stroke="black" points="733.25,-213.52 743.76,-214.86 736.38,-207.26 733.25,-213.52"/>
+</g>
+<!-- Sys1 -->
+<g id="node11" class="node">
+<title>Sys1</title>
+<polygon fill="#899a83" stroke="#899a83" points="1156.43,-262.4 1076.44,-262.4 1076.44,-216 1156.43,-216 1156.43,-262.4"/>
+<text xml:space="preserve" text-anchor="middle" x="1116.44" y="-244" font-family="Times" font-size="16.00">Computer</text>
+<text xml:space="preserve" text-anchor="middle" x="1116.44" y="-224.8" font-family="Times" font-size="16.00">Systems I</text>
+</g>
+<!-- CS2&#45;&gt;Sys1 -->
+<g id="edge5" class="edge">
+<title>CS2-&gt;Sys1</title>
+<path fill="none" stroke="black" d="M616.58,-139.23C713.04,-158.52 957.75,-207.46 1064.88,-228.89"/>
+<polygon fill="black" stroke="black" points="1064.05,-232.29 1074.54,-230.82 1065.42,-225.43 1064.05,-232.29"/>
+</g>
+<!-- DS -->
+<g id="node13" class="node">
+<title>DS</title>
+<polygon fill="#899a83" stroke="#899a83" points="616.87,-262.4 536,-262.4 536,-216 616.87,-216 616.87,-262.4"/>
+<text xml:space="preserve" text-anchor="middle" x="576.44" y="-244" font-family="Times" font-size="16.00">Data</text>
+<text xml:space="preserve" text-anchor="middle" x="576.44" y="-224.8" font-family="Times" font-size="16.00">Structures</text>
+</g>
+<!-- CS2&#45;&gt;DS -->
+<g id="edge8" class="edge">
+<title>CS2-&gt;DS</title>
+<path fill="none" stroke="black" d="M576.44,-154.63C576.44,-169.21 576.44,-188.22 576.44,-204.52"/>
+<polygon fill="black" stroke="black" points="572.94,-204.3 576.44,-214.3 579.94,-204.3 572.94,-204.3"/>
+</g>
+<!-- RDS -->
+<g id="node14" class="node">
+<title>RDS</title>
+<polygon fill="#d9ead3" stroke="#d9ead3" points="510.66,-262.4 426.21,-262.4 426.21,-216 510.66,-216 510.66,-262.4"/>
+<text xml:space="preserve" text-anchor="middle" x="468.44" y="-244" font-family="Times" font-size="16.00">Relational</text>
+<text xml:space="preserve" text-anchor="middle" x="468.44" y="-224.8" font-family="Times" font-size="16.00">DB &amp; GIS</text>
+</g>
+<!-- CS2&#45;&gt;RDS -->
+<g id="edge9" class="edge">
+<title>CS2-&gt;RDS</title>
+<path fill="none" stroke="black" d="M553,-154.63C537.44,-170.2 516.81,-190.82 499.83,-207.81"/>
+<polygon fill="black" stroke="black" points="497.49,-205.2 492.9,-214.74 502.44,-210.14 497.49,-205.2"/>
+</g>
+<!-- ML -->
+<g id="node21" class="node">
+<title>ML</title>
+<polygon fill="#d9ead3" stroke="#d9ead3" points="271.31,-370.4 197.56,-370.4 197.56,-324 271.31,-324 271.31,-370.4"/>
+<text xml:space="preserve" text-anchor="middle" x="234.44" y="-352" font-family="Times" font-size="16.00">Machine</text>
+<text xml:space="preserve" text-anchor="middle" x="234.44" y="-332.8" font-family="Times" font-size="16.00">Learning</text>
+</g>
+<!-- CS2&#45;&gt;ML -->
+<g id="edge20" class="edge">
+<title>CS2-&gt;ML</title>
+<path fill="none" stroke="black" d="M536.06,-150.57C504.51,-166.16 459.9,-189.19 422.51,-212.3 369.1,-245.31 310.82,-288.28 273.52,-316.76"/>
+<polygon fill="black" stroke="black" points="271.51,-313.89 265.7,-322.75 275.77,-319.44 271.51,-313.89"/>
+</g>
+<!-- HCI -->
+<g id="node19" class="node">
+<title>HCI</title>
+<polygon fill="#d9ead3" stroke="#d9ead3" points="836.41,-370.4 748.46,-370.4 748.46,-324 836.41,-324 836.41,-370.4"/>
+<text xml:space="preserve" text-anchor="middle" x="792.44" y="-352" font-family="Times" font-size="16.00">User</text>
+<text xml:space="preserve" text-anchor="middle" x="792.44" y="-332.8" font-family="Times" font-size="16.00">Experience</text>
+</g>
+<!-- FSWD&#45;&gt;HCI -->
+<g id="edge16" class="edge">
+<title>FSWD-&gt;HCI</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M707.87,-262.63C723.44,-278.2 744.06,-298.82 761.04,-315.81"/>
+<polygon fill="black" stroke="black" points="758.43,-318.14 767.98,-322.74 763.38,-313.2 758.43,-318.14"/>
+</g>
+<!-- GD&#45;&gt;HCI -->
+<g id="edge17" class="edge">
+<title>GD-&gt;HCI</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M792.44,-262.63C792.44,-277.21 792.44,-296.22 792.44,-312.52"/>
+<polygon fill="black" stroke="black" points="788.94,-312.3 792.44,-322.3 795.94,-312.3 788.94,-312.3"/>
+</g>
+<!-- Sys2 -->
+<g id="node16" class="node">
+<title>Sys2</title>
+<polygon fill="#d9ead3" stroke="#d9ead3" points="1158.44,-370.4 1074.44,-370.4 1074.44,-324 1158.44,-324 1158.44,-370.4"/>
+<text xml:space="preserve" text-anchor="middle" x="1116.44" y="-352" font-family="Times" font-size="16.00">Computer</text>
+<text xml:space="preserve" text-anchor="middle" x="1116.44" y="-332.8" font-family="Times" font-size="16.00">Systems II</text>
+</g>
+<!-- Sys1&#45;&gt;Sys2 -->
+<g id="edge12" class="edge">
+<title>Sys1-&gt;Sys2</title>
+<path fill="none" stroke="black" d="M1116.44,-262.63C1116.44,-277.21 1116.44,-296.22 1116.44,-312.52"/>
+<polygon fill="black" stroke="black" points="1112.94,-312.3 1116.44,-322.3 1119.94,-312.3 1112.94,-312.3"/>
+</g>
+<!-- CN -->
+<g id="node25" class="node">
+<title>CN</title>
+<polygon fill="#d9ead3" stroke="#d9ead3" points="1264.43,-370.4 1184.44,-370.4 1184.44,-324 1264.43,-324 1264.43,-370.4"/>
+<text xml:space="preserve" text-anchor="middle" x="1224.44" y="-352" font-family="Times" font-size="16.00">Computer</text>
+<text xml:space="preserve" text-anchor="middle" x="1224.44" y="-332.8" font-family="Times" font-size="16.00">Networks</text>
+</g>
+<!-- Sys1&#45;&gt;CN -->
+<g id="edge24" class="edge">
+<title>Sys1-&gt;CN</title>
+<path fill="none" stroke="black" d="M1139.87,-262.63C1155.44,-278.2 1176.06,-298.82 1193.04,-315.81"/>
+<polygon fill="black" stroke="black" points="1190.43,-318.14 1199.98,-322.74 1195.38,-313.2 1190.43,-318.14"/>
+</g>
+<!-- AOS -->
+<g id="node27" class="node">
+<title>AOS</title>
+<polygon fill="#d9ead3" stroke="#d9ead3" points="1112.2,-488 1012.68,-488 1012.68,-422.4 1112.2,-422.4 1112.2,-488"/>
+<text xml:space="preserve" text-anchor="middle" x="1062.44" y="-469.6" font-family="Times" font-size="16.00">Algorithms+</text>
+<text xml:space="preserve" text-anchor="middle" x="1062.44" y="-450.4" font-family="Times" font-size="16.00">Organization</text>
+<text xml:space="preserve" text-anchor="middle" x="1062.44" y="-431.2" font-family="Times" font-size="16.00">=Systems</text>
+</g>
+<!-- Sys1&#45;&gt;AOS -->
+<g id="edge26" class="edge">
+<title>Sys1-&gt;AOS</title>
+<path fill="none" stroke="black" d="M1099.37,-262.75C1089.11,-278.28 1076.87,-299.53 1070.74,-320.3 1065.89,-336.71 1063.87,-378.19 1063.03,-410.85"/>
+<polygon fill="black" stroke="black" points="1059.54,-410.4 1062.82,-420.47 1066.54,-410.55 1059.54,-410.4"/>
+</g>
+<!-- DM&#45;&gt;Sys1 -->
+<g id="edge6" class="edge">
+<title>DM-&gt;Sys1</title>
+<path fill="none" stroke="black" d="M509.05,-150.04C516.79,-153.1 524.92,-155.96 532.74,-158.1 633,-185.54 941.84,-220.51 1064.98,-233.77"/>
+<polygon fill="black" stroke="black" points="1064.48,-237.24 1074.8,-234.83 1065.23,-230.28 1064.48,-237.24"/>
+</g>
+<!-- DM&#45;&gt;RDS -->
+<g id="edge10" class="edge">
+<title>DM-&gt;RDS</title>
+<path fill="none" stroke="black" d="M468.44,-154.63C468.44,-169.21 468.44,-188.22 468.44,-204.52"/>
+<polygon fill="black" stroke="black" points="464.94,-204.3 468.44,-214.3 471.94,-204.3 464.94,-204.3"/>
+</g>
+<!-- Alg -->
+<g id="node17" class="node">
+<title>Alg</title>
+<polygon fill="#899a83" stroke="#899a83" points="617.77,-370.4 535.11,-370.4 535.11,-324 617.77,-324 617.77,-370.4"/>
+<text xml:space="preserve" text-anchor="middle" x="576.44" y="-352" font-family="Times" font-size="16.00">Algorithm</text>
+<text xml:space="preserve" text-anchor="middle" x="576.44" y="-332.8" font-family="Times" font-size="16.00">Design</text>
+</g>
+<!-- DM&#45;&gt;Alg -->
+<g id="edge13" class="edge">
+<title>DM-&gt;Alg</title>
+<path fill="none" stroke="black" d="M483.36,-154.7C493.02,-170.56 505.42,-192.19 514.36,-212.3 524.61,-235.33 522.25,-242.99 532.3,-266.1 539.29,-282.19 548.37,-299.34 556.48,-313.71"/>
+<polygon fill="black" stroke="black" points="553.4,-315.38 561.41,-322.31 559.47,-311.9 553.4,-315.38"/>
+</g>
+<!-- MD -->
+<g id="node15" class="node">
+<title>MD</title>
+<polygon fill="#d9ead3" stroke="#d9ead3" points="1059.54,-370.4 957.34,-370.4 957.34,-324 1059.54,-324 1059.54,-370.4"/>
+<text xml:space="preserve" text-anchor="middle" x="1008.44" y="-352" font-family="Times" font-size="16.00">Mobile</text>
+<text xml:space="preserve" text-anchor="middle" x="1008.44" y="-332.8" font-family="Times" font-size="16.00">Development</text>
+</g>
+<!-- DS&#45;&gt;MD -->
+<g id="edge11" class="edge">
+<title>DS-&gt;MD</title>
+<path fill="none" stroke="black" d="M617.26,-258.24C624.53,-261.16 632.11,-263.93 639.41,-266.1 768.99,-304.65 811.81,-281.48 946.27,-320.51"/>
+<polygon fill="black" stroke="black" points="944.94,-323.76 955.52,-323.26 946.93,-317.05 944.94,-323.76"/>
+</g>
+<!-- DS&#45;&gt;Alg -->
+<g id="edge14" class="edge">
+<title>DS-&gt;Alg</title>
+<path fill="none" stroke="black" d="M576.44,-262.63C576.44,-277.21 576.44,-296.22 576.44,-312.52"/>
+<polygon fill="black" stroke="black" points="572.94,-312.3 576.44,-322.3 579.94,-312.3 572.94,-312.3"/>
+</g>
+<!-- PL -->
+<g id="node18" class="node">
+<title>PL</title>
+<polygon fill="#d9ead3" stroke="#d9ead3" points="943.09,-370.4 857.79,-370.4 857.79,-324 943.09,-324 943.09,-370.4"/>
+<text xml:space="preserve" text-anchor="middle" x="900.44" y="-352" font-family="Times" font-size="16.00">Prog.</text>
+<text xml:space="preserve" text-anchor="middle" x="900.44" y="-332.8" font-family="Times" font-size="16.00">Languages</text>
+</g>
+<!-- DS&#45;&gt;PL -->
+<g id="edge15" class="edge">
+<title>DS-&gt;PL</title>
+<path fill="none" stroke="black" d="M617.1,-257.55C624.45,-260.59 632.1,-263.57 639.41,-266.1 726.71,-296.37 753.05,-289.35 840.11,-320.3 842.44,-321.13 844.8,-322.01 847.18,-322.92"/>
+<polygon fill="black" stroke="black" points="845.62,-326.06 856.2,-326.56 848.23,-319.57 845.62,-326.06"/>
+</g>
+<!-- DS&#45;&gt;HCI -->
+<g id="edge18" class="edge">
+<title>DS-&gt;HCI</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M617.32,-259.64C651.42,-276.69 700.3,-301.13 737.76,-319.86"/>
+<polygon fill="black" stroke="black" points="736.14,-322.96 746.65,-324.31 739.27,-316.7 736.14,-322.96"/>
+</g>
+<!-- SE -->
+<g id="node20" class="node">
+<title>SE</title>
+<polygon fill="#899a83" stroke="#899a83" points="731.54,-370.4 637.34,-370.4 637.34,-324 731.54,-324 731.54,-370.4"/>
+<text xml:space="preserve" text-anchor="middle" x="684.44" y="-352" font-family="Times" font-size="16.00">Software</text>
+<text xml:space="preserve" text-anchor="middle" x="684.44" y="-332.8" font-family="Times" font-size="16.00">Engineering</text>
+</g>
+<!-- DS&#45;&gt;SE -->
+<g id="edge19" class="edge">
+<title>DS-&gt;SE</title>
+<path fill="none" stroke="black" d="M599.87,-262.63C615.44,-278.2 636.06,-298.82 653.04,-315.81"/>
+<polygon fill="black" stroke="black" points="650.43,-318.14 659.98,-322.74 655.38,-313.2 650.43,-318.14"/>
+</g>
+<!-- AIGR -->
+<g id="node24" class="node">
+<title>AIGR</title>
+<polygon fill="#d9ead3" stroke="#d9ead3" points="415.55,-370.4 305.33,-370.4 305.33,-324 415.55,-324 415.55,-370.4"/>
+<text xml:space="preserve" text-anchor="middle" x="360.44" y="-352" font-family="Times" font-size="16.00">AI for</text>
+<text xml:space="preserve" text-anchor="middle" x="360.44" y="-332.8" font-family="Times" font-size="16.00">Games/Robots</text>
+</g>
+<!-- DS&#45;&gt;AIGR -->
+<g id="edge23" class="edge">
+<title>DS-&gt;AIGR</title>
+<path fill="none" stroke="black" d="M535.56,-259.64C502.24,-276.3 454.81,-300.01 417.71,-318.56"/>
+<polygon fill="black" stroke="black" points="416.27,-315.37 408.89,-322.97 419.4,-321.63 416.27,-315.37"/>
+</g>
+<!-- DB -->
+<g id="node26" class="node">
+<title>DB</title>
+<polygon fill="#d9ead3" stroke="#d9ead3" points="508.87,-370.4 428.01,-370.4 428.01,-324 508.87,-324 508.87,-370.4"/>
+<text xml:space="preserve" text-anchor="middle" x="468.44" y="-352" font-family="Times" font-size="16.00">Topics in</text>
+<text xml:space="preserve" text-anchor="middle" x="468.44" y="-332.8" font-family="Times" font-size="16.00">Databases</text>
+</g>
+<!-- RDS&#45;&gt;DB -->
+<g id="edge25" class="edge">
+<title>RDS-&gt;DB</title>
+<path fill="none" stroke="black" d="M468.44,-262.63C468.44,-277.21 468.44,-296.22 468.44,-312.52"/>
+<polygon fill="black" stroke="black" points="464.94,-312.3 468.44,-322.3 471.94,-312.3 464.94,-312.3"/>
+</g>
+<!-- Alg&#45;&gt;AOS -->
+<g id="edge27" class="edge">
+<title>Alg-&gt;AOS</title>
+<path fill="none" stroke="black" d="M618.12,-368.27C623.27,-370.43 628.52,-372.44 633.64,-374.1 760.82,-415.3 916.39,-438.23 1000.8,-448.51"/>
+<polygon fill="black" stroke="black" points="1000.38,-451.98 1010.72,-449.69 1001.21,-445.03 1000.38,-451.98"/>
+</g>
+<!-- NLP -->
+<g id="node29" class="node">
+<title>NLP</title>
+<polygon fill="#d9ead3" stroke="#d9ead3" points="331.1,-488 245.77,-488 245.77,-422.4 331.1,-422.4 331.1,-488"/>
+<text xml:space="preserve" text-anchor="middle" x="288.44" y="-469.6" font-family="Times" font-size="16.00">Natural</text>
+<text xml:space="preserve" text-anchor="middle" x="288.44" y="-450.4" font-family="Times" font-size="16.00">Language</text>
+<text xml:space="preserve" text-anchor="middle" x="288.44" y="-431.2" font-family="Times" font-size="16.00">Processing</text>
+</g>
+<!-- Alg&#45;&gt;NLP -->
+<g id="edge30" class="edge">
+<title>Alg-&gt;NLP</title>
+<path fill="none" stroke="black" d="M534.65,-365.16C527.32,-368.21 519.74,-371.29 512.57,-374.1 454.72,-396.73 387.64,-420.71 342.05,-436.67"/>
+<polygon fill="black" stroke="black" points="340.95,-433.35 332.66,-439.95 343.26,-439.96 340.95,-433.35"/>
+</g>
+<!-- TML -->
+<g id="node28" class="node">
+<title>TML</title>
+<polygon fill="#d9ead3" stroke="#d9ead3" points="225.63,-488 149.64,-488 149.64,-422.4 225.63,-422.4 225.63,-488"/>
+<text xml:space="preserve" text-anchor="middle" x="187.64" y="-469.6" font-family="Times" font-size="16.00">Topics in</text>
+<text xml:space="preserve" text-anchor="middle" x="187.64" y="-450.4" font-family="Times" font-size="16.00">Machine</text>
+<text xml:space="preserve" text-anchor="middle" x="187.64" y="-431.2" font-family="Times" font-size="16.00">Learning</text>
+</g>
+<!-- ML&#45;&gt;TML -->
+<g id="edge28" class="edge">
+<title>ML-&gt;TML</title>
+<path fill="none" stroke="black" d="M224.28,-370.63C219.1,-382.6 212.62,-397.55 206.56,-411.53"/>
+<polygon fill="black" stroke="black" points="203.4,-410.02 202.64,-420.59 209.82,-412.8 203.4,-410.02"/>
+</g>
+<!-- ML&#45;&gt;NLP -->
+<g id="edge29" class="edge">
+<title>ML-&gt;NLP</title>
+<path fill="none" stroke="black" d="M246.15,-370.63C252.2,-382.72 259.76,-397.84 266.81,-411.94"/>
+<polygon fill="black" stroke="black" points="263.55,-413.24 271.15,-420.62 269.81,-410.11 263.55,-413.24"/>
+</g>
+<!-- Stats -->
+<g id="node22" class="node">
+<title>Stats</title>
+<polygon fill="none" stroke="gray" points="317.32,-257.2 259.55,-257.2 259.55,-221.2 317.32,-221.2 317.32,-257.2"/>
+<text xml:space="preserve" text-anchor="middle" x="288.44" y="-234.4" font-family="Times" font-size="16.00">[Stats]</text>
+</g>
+<!-- Stats&#45;&gt;ML -->
+<g id="edge21" class="edge">
+<title>Stats-&gt;ML</title>
+<path fill="none" stroke="black" d="M279.28,-257.52C271.59,-272.89 260.42,-295.23 251.15,-313.77"/>
+<polygon fill="black" stroke="black" points="248.12,-312.02 246.77,-322.53 254.38,-315.15 248.12,-312.02"/>
+</g>
+<!-- LA -->
+<g id="node23" class="node">
+<title>LA</title>
+<polygon fill="none" stroke="gray" points="234.88,-257.2 162,-257.2 162,-221.2 234.88,-221.2 234.88,-257.2"/>
+<text xml:space="preserve" text-anchor="middle" x="198.44" y="-234.4" font-family="Times" font-size="16.00">[LinAlg]</text>
+</g>
+<!-- LA&#45;&gt;ML -->
+<g id="edge22" class="edge">
+<title>LA-&gt;ML</title>
+<path fill="none" stroke="black" d="M204.54,-257.52C209.59,-272.67 216.91,-294.6 223.03,-312.99"/>
+<polygon fill="black" stroke="black" points="219.7,-314.07 226.19,-322.45 226.34,-311.85 219.7,-314.07"/>
+</g>
+<!-- StatBEM -->
+<g id="node30" class="node">
+<title>StatBEM</title>
+<polygon fill="none" stroke="gray" points="413.95,-154.4 335.73,-154.4 335.73,-108 413.95,-108 413.95,-154.4"/>
+<text xml:space="preserve" text-anchor="middle" x="374.84" y="-136" font-family="Times" font-size="16.00">Bus/Econ</text>
+<text xml:space="preserve" text-anchor="middle" x="374.84" y="-116.8" font-family="Times" font-size="16.00">Mngmt</text>
+</g>
+<!-- StatBEM&#45;&gt;Stats -->
+<g id="edge31" class="edge">
+<title>StatBEM-&gt;Stats</title>
+<path fill="none" stroke="lightgray" stroke-dasharray="5,2" d="M356.09,-154.63C342.57,-171.54 324.27,-194.4 310.12,-212.1"/>
+<polygon fill="lightgray" stroke="lightgray" points="307.6,-209.64 304.09,-219.64 313.07,-214.01 307.6,-209.64"/>
+</g>
+<!-- StatsHLSS -->
+<g id="node31" class="node">
+<title>StatsHLSS</title>
+<polygon fill="none" stroke="gray" points="323.98,-154.4 252.89,-154.4 252.89,-108 323.98,-108 323.98,-154.4"/>
+<text xml:space="preserve" text-anchor="middle" x="288.44" y="-136" font-family="Times" font-size="16.00">Health</text>
+<text xml:space="preserve" text-anchor="middle" x="288.44" y="-116.8" font-family="Times" font-size="16.00">Life/Soc</text>
+</g>
+<!-- StatsHLSS&#45;&gt;Stats -->
+<g id="edge32" class="edge">
+<title>StatsHLSS-&gt;Stats</title>
+<path fill="none" stroke="lightgray" stroke-dasharray="5,2" d="M288.44,-154.63C288.44,-170.69 288.44,-192.11 288.44,-209.38"/>
+<polygon fill="lightgray" stroke="lightgray" points="284.94,-209.3 288.44,-219.3 291.94,-209.3 284.94,-209.3"/>
+</g>
+<!-- StatDS -->
+<g id="node32" class="node">
+<title>StatDS</title>
+<polygon fill="none" stroke="gray" points="244.56,-149.2 173.91,-149.2 173.91,-113.2 244.56,-113.2 244.56,-149.2"/>
+<text xml:space="preserve" text-anchor="middle" x="209.24" y="-126.4" font-family="Times" font-size="16.00">Data Sci</text>
+</g>
+<!-- StatDS&#45;&gt;Stats -->
+<g id="edge33" class="edge">
+<title>StatDS-&gt;Stats</title>
+<path fill="none" stroke="lightgray" stroke-dasharray="5,2" d="M222.67,-149.52C235.13,-166.51 253.85,-192.03 268.13,-211.51"/>
+<polygon fill="lightgray" stroke="lightgray" points="265.31,-213.57 274.04,-219.57 270.95,-209.44 265.31,-213.57"/>
+</g>
+<!-- AppLA -->
+<g id="node33" class="node">
+<title>AppLA</title>
+<polygon fill="none" stroke="gray" points="160.21,-149.2 92.66,-149.2 92.66,-113.2 160.21,-113.2 160.21,-149.2"/>
+<text xml:space="preserve" text-anchor="middle" x="126.44" y="-126.4" font-family="Times" font-size="16.00">Applied</text>
+</g>
+<!-- AppLA&#45;&gt;LA -->
+<g id="edge34" class="edge">
+<title>AppLA-&gt;LA</title>
+<path fill="none" stroke="lightgray" stroke-dasharray="5,2" d="M138.65,-149.52C149.93,-166.43 166.83,-191.8 179.8,-211.24"/>
+<polygon fill="lightgray" stroke="lightgray" points="176.86,-213.15 185.32,-219.53 182.69,-209.27 176.86,-213.15"/>
+</g>
+<!-- NormLA -->
+<g id="node34" class="node">
+<title>NormLA</title>
+<polygon fill="none" stroke="gray" points="72.88,-149.2 0,-149.2 0,-113.2 72.88,-113.2 72.88,-149.2"/>
+<text xml:space="preserve" text-anchor="middle" x="36.44" y="-126.4" font-family="Times" font-size="16.00">Standard</text>
+</g>
+<!-- NormLA&#45;&gt;LA -->
+<g id="edge35" class="edge">
+<title>NormLA-&gt;LA</title>
+<path fill="none" stroke="lightgray" stroke-dasharray="5,2" d="M63.92,-149.52C90.8,-167.44 131.91,-194.85 161.61,-214.65"/>
+<polygon fill="lightgray" stroke="lightgray" points="159.3,-217.31 169.56,-219.95 163.18,-211.49 159.3,-217.31"/>
+</g>
+</g>
+</svg>
